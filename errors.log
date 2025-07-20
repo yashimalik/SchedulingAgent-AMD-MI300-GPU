@@ -1,0 +1,1723 @@
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/570164210.py", line 218, in find_meeting_slots
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/570164210.py", line 24, in retrive_calendar_events
+    start_time = event["start"]["dateTime"]
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'dateTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/570164210.py", line 218, in find_meeting_slots
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/570164210.py", line 24, in retrive_calendar_events
+    start_time = event["start"]["dateTime"]
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'dateTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/570164210.py", line 218, in find_meeting_slots
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/570164210.py", line 24, in retrive_calendar_events
+    start_time = event["start"]["dateTime"]
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'dateTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/570164210.py", line 218, in find_meeting_slots
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/570164210.py", line 24, in retrive_calendar_events
+    start_time = event["start"]["dateTime"]
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'dateTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/570164210.py", line 218, in find_meeting_slots
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/570164210.py", line 24, in retrive_calendar_events
+    start_time = event["start"]["dateTime"]
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'dateTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/570164210.py", line 218, in find_meeting_slots
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/570164210.py", line 24, in retrive_calendar_events
+    start_time = event["start"]["dateTime"]
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'dateTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/570164210.py", line 218, in find_meeting_slots
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/570164210.py", line 24, in retrive_calendar_events
+    start_time = event["start"]["dateTime"]
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'dateTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/570164210.py", line 218, in find_meeting_slots
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/570164210.py", line 24, in retrive_calendar_events
+    start_time = event["start"]["dateTime"]
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'dateTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/570164210.py", line 218, in find_meeting_slots
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/570164210.py", line 24, in retrive_calendar_events
+    start_time = event["start"]["dateTime"]
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'dateTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/1988601813.py", line 217, in find_meeting_slots
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/1988601813.py", line 24, in retrive_calendar_events
+    start_time = event["start"]["dateTime"]
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'dateTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/1988601813.py", line 217, in find_meeting_slots
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/1988601813.py", line 24, in retrive_calendar_events
+    start_time = event["start"]["dateTime"]
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'dateTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/1988601813.py", line 217, in find_meeting_slots
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/1988601813.py", line 24, in retrive_calendar_events
+    start_time = event["start"]["dateTime"]
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'dateTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/3317876160.py", line 217, in find_meeting_slots
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3317876160.py", line 24, in retrive_calendar_events
+    start_time = event["start"]["dateTime"]
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'dateTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/3317876160.py", line 217, in find_meeting_slots
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3317876160.py", line 24, in retrive_calendar_events
+    start_time = event["start"]["dateTime"]
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'dateTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/3317876160.py", line 217, in find_meeting_slots
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3317876160.py", line 24, in retrive_calendar_events
+    start_time = event["start"]["dateTime"]
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'dateTime'
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/3317876160.py", line 217, in find_meeting_slots
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3317876160.py", line 24, in retrive_calendar_events
+    start_time = event["start"]["dateTime"]
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'dateTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/3317876160.py", line 217, in find_meeting_slots
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3317876160.py", line 24, in retrive_calendar_events
+    start_time = event["start"]["dateTime"]
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'dateTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/3317876160.py", line 217, in find_meeting_slots
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3317876160.py", line 24, in retrive_calendar_events
+    start_time = event["start"]["dateTime"]
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'dateTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/3317876160.py", line 217, in find_meeting_slots
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3317876160.py", line 24, in retrive_calendar_events
+    start_time = event["start"]["dateTime"]
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'dateTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/3317876160.py", line 217, in find_meeting_slots
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3317876160.py", line 24, in retrive_calendar_events
+    start_time = event["start"]["dateTime"]
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'dateTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/3317876160.py", line 217, in find_meeting_slots
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3317876160.py", line 24, in retrive_calendar_events
+    start_time = event["start"]["dateTime"]
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'dateTime'
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/3317876160.py", line 217, in find_meeting_slots
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3317876160.py", line 24, in retrive_calendar_events
+    start_time = event["start"]["dateTime"]
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'dateTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/3317876160.py", line 217, in find_meeting_slots
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3317876160.py", line 24, in retrive_calendar_events
+    start_time = event["start"]["dateTime"]
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'dateTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/3317876160.py", line 217, in find_meeting_slots
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3317876160.py", line 24, in retrive_calendar_events
+    start_time = event["start"]["dateTime"]
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'dateTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/331210085.py", line 229, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/331210085.py", line 151, in find_free_slots
+    if meeting_end > search_start and meeting_start < search_end:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/331210085.py", line 229, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/331210085.py", line 151, in find_free_slots
+    if meeting_end > search_start and meeting_start < search_end:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/331210085.py", line 229, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/331210085.py", line 151, in find_free_slots
+    if meeting_end > search_start and meeting_start < search_end:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+INFO:werkzeug:42.92.121.240 - - [19/Jul/2025 23:17:15] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:123.160.175.179 - - [19/Jul/2025 23:18:11] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:werkzeug:172.236.228.227 - - [19/Jul/2025 23:39:06] code 400, message Bad request syntax ('\x16\x03\x01\x01')
+INFO:werkzeug:172.236.228.227 - - [19/Jul/2025 23:39:06] "[31m[1m\x16\x03\x01\x01[0m" 400 -
+ERROR:werkzeug:172.236.228.227 - - [19/Jul/2025 23:39:06] code 400, message Bad request syntax ('\x16\x03\x01\x01')
+INFO:werkzeug:172.236.228.227 - - [19/Jul/2025 23:39:06] "[31m[1m\x16\x03\x01\x01[0m" 400 -
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+INFO:werkzeug:45.79.128.205 - - [20/Jul/2025 00:29:59] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:50.116.26.161 - - [20/Jul/2025 00:36:12] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:66.228.53.157 - - [20/Jul/2025 00:36:23] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:96.126.104.20 - - [20/Jul/2025 02:00:52] code 400, message Bad request version ('À\x13À')
+INFO:werkzeug:96.126.104.20 - - [20/Jul/2025 02:00:52] "[31m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03øK+:}ÝQ{\x9fø/\x04ü\x83\x9aö¡åã×iWàQgÜ±å­aÉ\x07 3$¹Y b°&Å,²8Dó®DÓç?Qó<Eô\x8f.Î\x16ª\x98\x97\x87\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+INFO:werkzeug:96.126.104.20 - - [20/Jul/2025 02:00:52] "[33mGET /signin HTTP/1.1[0m" 404 -
+ERROR:werkzeug:91.196.152.11 - - [20/Jul/2025 02:06:42] code 400, message Bad request version ('À#À¬À®À+À')
+INFO:werkzeug:91.196.152.11 - - [20/Jul/2025 02:06:42] "[31m[1m\x16\x03\x03\x01¨\x01\x00\x01¤\x03\x03ÿ=8£\x1fAÉ\x7f-ÆÚ\x83Ò\x97\x86,3ûú#\x09Á;\x0cG÷Ü\x10ó?â\x1e ¨\x0db\x817\x85Ý6â\x11~Ñ£\x0eÃ}\x1c±û¢ûÐ"üüÂmÜ Ân¡\x00\x8a\x00\x16\x003\x00gÀ\x9eÀ¢\x00\x9e\x009\x00kÀ\x9fÀ£\x00\x9f\x00E\x00¾\x00\x88\x00Ä\x00\x9aÀ\x08À\x09À#À¬À®À+À[0m" 400 -
+INFO:werkzeug:91.196.152.102 - - [20/Jul/2025 02:06:49] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:91.196.152.91 - - [20/Jul/2025 02:20:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+INFO:werkzeug:46.19.141.90 - - [20/Jul/2025 03:02:43] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+ERROR:werkzeug:35.203.211.6 - - [20/Jul/2025 03:29:06] code 400, message Bad request version ('Ü\x86ò¾°÷')
+INFO:werkzeug:35.203.211.6 - - [20/Jul/2025 03:29:06] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x90\x0dQ4\x8f½òàßlh<\x18\x0eL Ü\x86ò¾°÷[0m" 400 -
+ERROR:werkzeug:35.203.211.6 - - [20/Jul/2025 03:29:06] code 400, message Bad request version ('À(À$À\x14À')
+INFO:werkzeug:35.203.211.6 - - [20/Jul/2025 03:29:06] "[31m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x937Õ3\x92a+¿d°{:\x1b\x1f§\x1f\x93:<ØSÍîlgü¡\\ä\x16´Ö\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" 400 -
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/4034684333.py", line 231, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/4034684333.py", line 142, in find_free_slots
+    search_start = datetime.fromisoformat(start_time)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+INFO:werkzeug:205.210.31.75 - - [20/Jul/2025 04:49:46] "[33mGET / HTTP/1.0[0m" 404 -
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/45848023.py", line 234, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/45848023.py", line 141, in find_free_slots
+    search_start = datetime.fromisoformat(start_time)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/45848023.py", line 234, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/45848023.py", line 141, in find_free_slots
+    search_start = datetime.fromisoformat(start_time)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/45848023.py", line 234, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/45848023.py", line 141, in find_free_slots
+    search_start = datetime.fromisoformat(start_time)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/45848023.py", line 234, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/45848023.py", line 141, in find_free_slots
+    search_start = datetime.fromisoformat(start_time)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/45848023.py", line 234, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/45848023.py", line 141, in find_free_slots
+    search_start = datetime.fromisoformat(start_time)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/45848023.py", line 234, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/45848023.py", line 141, in find_free_slots
+    search_start = datetime.fromisoformat(start_time)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/45848023.py", line 234, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/45848023.py", line 141, in find_free_slots
+    search_start = datetime.fromisoformat(start_time)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/45848023.py", line 234, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/45848023.py", line 141, in find_free_slots
+    search_start = datetime.fromisoformat(start_time)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/45848023.py", line 234, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/45848023.py", line 141, in find_free_slots
+    search_start = datetime.fromisoformat(start_time)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/45848023.py", line 234, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/45848023.py", line 141, in find_free_slots
+    search_start = datetime.fromisoformat(start_time)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/45848023.py", line 234, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/45848023.py", line 141, in find_free_slots
+    search_start = datetime.fromisoformat(start_time)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/45848023.py", line 234, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/45848023.py", line 141, in find_free_slots
+    search_start = datetime.fromisoformat(start_time)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/45848023.py", line 234, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/45848023.py", line 141, in find_free_slots
+    search_start = datetime.fromisoformat(start_time)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/45848023.py", line 234, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/45848023.py", line 141, in find_free_slots
+    search_start = datetime.fromisoformat(start_time)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/45848023.py", line 234, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/45848023.py", line 141, in find_free_slots
+    search_start = datetime.fromisoformat(start_time)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/45848023.py", line 234, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/45848023.py", line 141, in find_free_slots
+    search_start = datetime.fromisoformat(start_time)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/45848023.py", line 234, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/45848023.py", line 141, in find_free_slots
+    search_start = datetime.fromisoformat(start_time)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/45848023.py", line 234, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/45848023.py", line 141, in find_free_slots
+    search_start = datetime.fromisoformat(start_time)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/2319266747.py", line 239, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/2319266747.py", line 142, in find_free_slots
+    search_start = datetime.fromisoformat(start_time)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/2319266747.py", line 239, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/2319266747.py", line 142, in find_free_slots
+    search_start = datetime.fromisoformat(start_time)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/2319266747.py", line 239, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/2319266747.py", line 142, in find_free_slots
+    search_start = datetime.fromisoformat(start_time)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/3349403464.py", line 240, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3349403464.py", line 143, in find_free_slots
+    search_start = datetime.fromisoformat(start_time)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/3349403464.py", line 240, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3349403464.py", line 143, in find_free_slots
+    search_start = datetime.fromisoformat(start_time)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/3349403464.py", line 240, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3349403464.py", line 143, in find_free_slots
+    search_start = datetime.fromisoformat(start_time)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/2181468851.py", line 242, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/2181468851.py", line 150, in find_free_slots
+    for schedule in schedules.values():
+                    ^^^^^^^^^^^^^^^^
+AttributeError: 'coroutine' object has no attribute 'values'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/2181468851.py", line 242, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/2181468851.py", line 150, in find_free_slots
+    for schedule in schedules.values():
+                    ^^^^^^^^^^^^^^^^
+AttributeError: 'coroutine' object has no attribute 'values'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/2181468851.py", line 242, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/2181468851.py", line 150, in find_free_slots
+    for schedule in schedules.values():
+                    ^^^^^^^^^^^^^^^^
+AttributeError: 'coroutine' object has no attribute 'values'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/394942501.py", line 235, in find_meeting_slots
+    all_events = await fetch_calendar_events(users, start_time, end_time)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/394942501.py", line 212, in fetch_calendar_events
+    for user in users:
+                ^^^^^
+TypeError: 'NoneType' object is not iterable
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/394942501.py", line 235, in find_meeting_slots
+    all_events = await fetch_calendar_events(users, start_time, end_time)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/394942501.py", line 212, in fetch_calendar_events
+    for user in users:
+                ^^^^^
+TypeError: 'NoneType' object is not iterable
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/394942501.py", line 235, in find_meeting_slots
+    all_events = await fetch_calendar_events(users, start_time, end_time)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/394942501.py", line 212, in fetch_calendar_events
+    for user in users:
+                ^^^^^
+TypeError: 'NoneType' object is not iterable
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/3847020149.py", line 235, in find_meeting_slots
+    all_events = await fetch_calendar_events(users, start_time, end_time)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3847020149.py", line 209, in fetch_calendar_events
+    for user in users:
+                ^^^^^
+TypeError: 'NoneType' object is not iterable
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/3847020149.py", line 235, in find_meeting_slots
+    all_events = await fetch_calendar_events(users, start_time, end_time)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3847020149.py", line 209, in fetch_calendar_events
+    for user in users:
+                ^^^^^
+TypeError: 'NoneType' object is not iterable
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/3847020149.py", line 235, in find_meeting_slots
+    all_events = await fetch_calendar_events(users, start_time, end_time)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3847020149.py", line 209, in fetch_calendar_events
+    for user in users:
+                ^^^^^
+TypeError: 'NoneType' object is not iterable
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/402729544.py", line 236, in find_meeting_slots
+    all_events = await fetch_calendar_events(users, start_time, end_time)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/402729544.py", line 209, in fetch_calendar_events
+    for user in users:
+                ^^^^^
+TypeError: 'NoneType' object is not iterable
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/402729544.py", line 236, in find_meeting_slots
+    all_events = await fetch_calendar_events(users, start_time, end_time)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/402729544.py", line 209, in fetch_calendar_events
+    for user in users:
+                ^^^^^
+TypeError: 'NoneType' object is not iterable
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/402729544.py", line 236, in find_meeting_slots
+    all_events = await fetch_calendar_events(users, start_time, end_time)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/402729544.py", line 209, in fetch_calendar_events
+    for user in users:
+                ^^^^^
+TypeError: 'NoneType' object is not iterable
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/402729544.py", line 236, in find_meeting_slots
+    all_events = await fetch_calendar_events(users, start_time, end_time)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/402729544.py", line 210, in fetch_calendar_events
+    user_events = await retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: object list can't be used in 'await' expression
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/402729544.py", line 236, in find_meeting_slots
+    all_events = await fetch_calendar_events(users, start_time, end_time)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/402729544.py", line 210, in fetch_calendar_events
+    user_events = await retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: object list can't be used in 'await' expression
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/402729544.py", line 236, in find_meeting_slots
+    all_events = await fetch_calendar_events(users, start_time, end_time)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/402729544.py", line 210, in fetch_calendar_events
+    user_events = await retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: object list can't be used in 'await' expression
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/3396519075.py", line 242, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3396519075.py", line 154, in find_free_slots
+    meeting_start = datetime.fromisoformat(meeting['StartTime'])
+                                           ~~~~~~~^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/3396519075.py", line 242, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3396519075.py", line 154, in find_free_slots
+    meeting_start = datetime.fromisoformat(meeting['StartTime'])
+                                           ~~~~~~~^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/3396519075.py", line 242, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3396519075.py", line 154, in find_free_slots
+    meeting_start = datetime.fromisoformat(meeting['StartTime'])
+                                           ~~~~~~~^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/330839084.py", line 242, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/330839084.py", line 154, in find_free_slots
+    meeting_start = datetime.fromisoformat(meeting['StartTime'])
+                                           ~~~~~~~^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/330839084.py", line 242, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/330839084.py", line 154, in find_free_slots
+    meeting_start = datetime.fromisoformat(meeting['StartTime'])
+                                           ~~~~~~~^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/330839084.py", line 242, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/330839084.py", line 154, in find_free_slots
+    meeting_start = datetime.fromisoformat(meeting['StartTime'])
+                                           ~~~~~~~^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/2859824078.py", line 248, in find_meeting_slots
+    extended_end_time = end_time + timedelta(days=7)
+                        ~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "datetime.timedelta") to str
+ERROR:werkzeug:96.126.104.20 - - [20/Jul/2025 05:56:56] code 400, message Bad request version ('À\x13À')
+INFO:werkzeug:96.126.104.20 - - [20/Jul/2025 05:56:56] "[31m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03¬e\x91H.h0\x9d\x8a\x07ø\x18õ\x89u&]Xh\x9afL\x1aägÁE\x87Æ)\x88+ \x10;RÌñÙOFòï2,CT\x9ed1Êö\x0eø¿h\x88\x9a£Î\x9d»°Ó­\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+INFO:werkzeug:96.126.104.20 - - [20/Jul/2025 05:56:56] "[33mGET /signin HTTP/1.1[0m" 404 -
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/1071401738.py", line 257, in find_meeting_slots
+    start_time=start_time.isoformat()
+               ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'isoformat'. Did you mean: 'format'?
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/2697401216.py", line 257, in find_meeting_slots
+    start_time=start_time.isoformat()
+               ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'isoformat'. Did you mean: 'format'?
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/348769611.py", line 259, in find_meeting_slots
+    start_time=start_time.isoformat()
+               ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'isoformat'. Did you mean: 'format'?
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/2120250597.py", line 262, in find_meeting_slots
+    start_time=start_time.isoformat()
+               ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'isoformat'. Did you mean: 'format'?
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/725642622.py", line 263, in find_meeting_slots
+    start_time=start_time.isoformat()
+               ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'isoformat'. Did you mean: 'format'?
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/1600990875.py", line 256, in find_meeting_slots
+    start_time=start_time.isoformat()
+               ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'isoformat'. Did you mean: 'format'?
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/2558817895.py", line 287, in find_meeting_slots
+    free_slots = schedule_high_priority_meeting(schedules=all_events,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: schedule_high_priority_meeting() missing 1 required positional argument: 'priority'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/2558817895.py", line 287, in find_meeting_slots
+    free_slots = schedule_high_priority_meeting(schedules=all_events,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/1001509599.py", line 54, in schedule_high_priority_meeting
+    return _cancel_low_priority_events(cancelable_meetings, all_meetings, search_start, search_end, duration)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/1001509599.py", line 64, in _cancel_low_priority_events
+    print(f"  - {meeting['summary']} ({meeting['start']} to {meeting['end']}) - {meeting['duration_minutes']} mins")
+                 ~~~~~~~^^^^^^^^^^^
+KeyError: 'summary'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/2558817895.py", line 287, in find_meeting_slots
+    free_slots = schedule_high_priority_meeting(schedules=all_events,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3610433131.py", line 54, in schedule_high_priority_meeting
+    return _cancel_low_priority_events(cancelable_meetings, all_meetings, search_start, search_end, duration)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3610433131.py", line 64, in _cancel_low_priority_events
+    print(f"  - {meeting.get('Summary')} ({meeting['StartTime']} to {meeting['EndTime']})")
+                                           ~~~~~~~^^^^^^^^^^^^^
+KeyError: 'StartTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/2558817895.py", line 287, in find_meeting_slots
+    free_slots = schedule_high_priority_meeting(schedules=all_events,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/2019653638.py", line 54, in schedule_high_priority_meeting
+    return _cancel_low_priority_events(cancelable_meetings, all_meetings, search_start, search_end, duration)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/2019653638.py", line 65, in _cancel_low_priority_events
+    print(f"  - {meeting.get('Summary')} ({meeting['StartTime']} to {meeting['EndTime']})")
+                                           ~~~~~~~^^^^^^^^^^^^^
+KeyError: 'StartTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/2558817895.py", line 287, in find_meeting_slots
+    free_slots = schedule_high_priority_meeting(schedules=all_events,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/2019653638.py", line 54, in schedule_high_priority_meeting
+    return _cancel_low_priority_events(cancelable_meetings, all_meetings, search_start, search_end, duration)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/2019653638.py", line 65, in _cancel_low_priority_events
+    print(f"  - {meeting.get('Summary')} ({meeting['StartTime']} to {meeting['EndTime']})")
+                                           ~~~~~~~^^^^^^^^^^^^^
+KeyError: 'StartTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/2558817895.py", line 287, in find_meeting_slots
+    free_slots = schedule_high_priority_meeting(schedules=all_events,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/1791568662.py", line 54, in schedule_high_priority_meeting
+    return _cancel_low_priority_events(cancelable_meetings, all_meetings, search_start, search_end, duration)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/1791568662.py", line 70, in _cancel_low_priority_events
+    meeting_duration = meeting['EndTime'] - meeting['StartTime']
+                       ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/2558817895.py", line 287, in find_meeting_slots
+    free_slots = schedule_high_priority_meeting(schedules=all_events,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3109753241.py", line 54, in schedule_high_priority_meeting
+    return _cancel_low_priority_events(cancelable_meetings, all_meetings, search_start, search_end, duration)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3109753241.py", line 78, in _cancel_low_priority_events
+    if (proposed_end <= meeting['EndTime'] and
+                       ~~~~~~~^^^^^^^^^^^
+KeyError: 'EndTime'
+INFO:werkzeug:205.210.31.240 - - [20/Jul/2025 06:33:14] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/2558817895.py", line 287, in find_meeting_slots
+    free_slots = schedule_high_priority_meeting(schedules=all_events,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/2875673112.py", line 54, in schedule_high_priority_meeting
+    return _cancel_low_priority_events(cancelable_meetings, all_meetings, search_start, search_end, duration)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/2875673112.py", line 82, in _cancel_low_priority_events
+    free_slots=schedule_canceled_events([{
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/2875673112.py", line 157, in schedule_canceled_events
+    start_time=meeting['StartTime']
+               ~~~~~~~^^^^^^^^^^^^^
+KeyError: 'StartTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/2558817895.py", line 287, in find_meeting_slots
+    free_slots = schedule_high_priority_meeting(schedules=all_events,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3978123845.py", line 54, in schedule_high_priority_meeting
+    return _cancel_low_priority_events(cancelable_meetings, all_meetings, search_start, search_end, duration)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3978123845.py", line 82, in _cancel_low_priority_events
+    free_slots=schedule_canceled_events([{
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/3978123845.py", line 158, in schedule_canceled_events
+    start_time=meeting['StartTime']
+               ~~~~~~~^^^^^^^^^^^^^
+KeyError: 'StartTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/2558817895.py", line 287, in find_meeting_slots
+    free_slots = schedule_high_priority_meeting(schedules=all_events,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/962689260.py", line 54, in schedule_high_priority_meeting
+    return _cancel_low_priority_events(cancelable_meetings, all_meetings, search_start, search_end, duration)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/962689260.py", line 82, in _cancel_low_priority_events
+    free_slots=schedule_canceled_events([{
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/962689260.py", line 158, in schedule_canceled_events
+    start_time=meeting['StartTime']
+               ~~~~~~~^^^^^^^^^^^^^
+KeyError: 'StartTime'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/2558817895.py", line 261, in find_meeting_slots
+    all_events = fetch_calendar_events(users, start_time, end_time)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/2558817895.py", line 233, in fetch_calendar_events
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/2558817895.py", line 16, in retrive_calendar_events
+    user_creds = Credentials.from_authorized_user_file(token_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/google/oauth2/credentials.py", line 515, in from_authorized_user_file
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'Keys/SELF.token'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/2558817895.py", line 287, in find_meeting_slots
+    free_slots = schedule_high_priority_meeting(schedules=all_events,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/2588172007.py", line 54, in schedule_high_priority_meeting
+    return _cancel_low_priority_events(cancelable_meetings, all_meetings, search_start, search_end, duration)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/2588172007.py", line 82, in _cancel_low_priority_events
+    free_slots=schedule_canceled_events([{
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/2588172007.py", line 166, in schedule_canceled_events
+    free_slots.append(free_slot[0])
+                      ~~~~~~~~~^^^
+IndexError: list index out of range
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/515086177.py", line 260, in find_meeting_slots
+    all_events = fetch_calendar_events(users, start_time, end_time)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/515086177.py", line 234, in fetch_calendar_events
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/515086177.py", line 17, in retrive_calendar_events
+    user_creds = Credentials.from_authorized_user_file(token_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/google/oauth2/credentials.py", line 515, in from_authorized_user_file
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'Keys/SELF.token'
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/515086177.py", line 286, in find_meeting_slots
+    free_slots = schedule_high_priority_meeting(schedules=all_events,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/2588172007.py", line 54, in schedule_high_priority_meeting
+    return _cancel_low_priority_events(cancelable_meetings, all_meetings, search_start, search_end, duration)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/2588172007.py", line 82, in _cancel_low_priority_events
+    free_slots=schedule_canceled_events([{
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/2588172007.py", line 166, in schedule_canceled_events
+    free_slots.append(free_slot[0])
+                      ~~~~~~~~~^^^
+IndexError: list index out of range
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/1700036976.py", line 25, in retrive_calendar_events
+    for attendee in event["attendees"]:
+                   ~~~~~^^^^^^^^^^^^^
+KeyError: 'attendees'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_2351/1700036976.py", line 260, in find_meeting_slots
+    all_events = fetch_calendar_events(users, start_time, end_time)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/1700036976.py", line 234, in fetch_calendar_events
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_2351/1700036976.py", line 28, in retrive_calendar_events
+    attendee_list.append(attendee['email'])
+                         ^^^^^^^^
+UnboundLocalError: cannot access local variable 'attendee' where it is not associated with a value
+ERROR:werkzeug:165.154.104.88 - - [20/Jul/2025 06:53:20] code 400, message Bad request version ('\x00\x9eÌ¨Ìª\x003\x00=\x00\x16À')
+INFO:werkzeug:165.154.104.88 - - [20/Jul/2025 06:53:20] "[31m[1m\x16\x03\x01\x01\x17\x01\x00\x01\x13\x03\x038`p\x9d\x02Vð\x85DÍGò_Üó½O\x00\x96[³;¢\x09\x0cÁª/\x832\x8eÞ \x1d¡\x08$pT\x12\x06\x16ê¾\x00å0}\x91ÕO\x87âD\x8c>\x06PÜ&Å\x17C\x15¦\x004Ì¨Ì©À/À0À+À,À\x09\x00\x9eÌ¨Ìª\x003\x00=\x00\x16À[0m" 400 -
+INFO:werkzeug:165.154.104.88 - - [20/Jul/2025 06:53:31] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:165.154.104.88 - - [20/Jul/2025 06:53:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:165.154.104.88 - - [20/Jul/2025 06:53:32] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:165.154.104.88 - - [20/Jul/2025 06:53:33] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_1315/2023571172.py", line 264, in find_meeting_slots
+    all_events = fetch_calendar_events(users, start_time, end_time)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_1315/2023571172.py", line 236, in fetch_calendar_events
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_1315/70611292.py", line 16, in retrive_calendar_events
+    start_time = event["start"]["dateTime"]
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'dateTime'
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:__main__:Exception on /receive [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_1315/3840574578.py", line 5, in receive
+    new_data = your_meeting_assistant(data)  # Your AI Meeting Assistant Function Call
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: your_meeting_assistant() missing 1 required positional argument: 'scheduler_agent'
+INFO:werkzeug:134.199.200.131 - - [20/Jul/2025 08:16:35] "[35m[1mPOST /receive HTTP/1.1[0m" 500 -
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_1315/2153303782.py", line 266, in find_meeting_slots
+    all_events = fetch_calendar_events(users, start_time, end_time)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_1315/2153303782.py", line 238, in fetch_calendar_events
+    user_events = retrive_calendar_events(user, start_time, end_time)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_1315/2153303782.py", line 42, in retrive_calendar_events
+    "Id": EventId})
+          ^^^^^^^
+NameError: name 'EventId' is not defined. Did you mean: 'events'?
+ERROR:__main__:Exception on /receive [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_1315/3840574578.py", line 5, in receive
+    new_data = your_meeting_assistant(data)  # Your AI Meeting Assistant Function Call
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: your_meeting_assistant() missing 1 required positional argument: 'scheduler_agent'
+INFO:werkzeug:134.199.200.131 - - [20/Jul/2025 08:19:42] "[35m[1mPOST /receive HTTP/1.1[0m" 500 -
+ERROR:__main__:Exception on /receive [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_1315/3840574578.py", line 5, in receive
+    new_data = your_meeting_assistant(data)  # Your AI Meeting Assistant Function Call
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: your_meeting_assistant() missing 1 required positional argument: 'scheduler_agent'
+INFO:werkzeug:134.199.200.131 - - [20/Jul/2025 08:20:23] "[35m[1mPOST /receive HTTP/1.1[0m" 500 -
+ERROR:__main__:Exception on /receive [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_1315/3840574578.py", line 5, in receive
+    new_data = your_meeting_assistant(data)  # Your AI Meeting Assistant Function Call
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: your_meeting_assistant() missing 1 required positional argument: 'scheduler_agent'
+INFO:werkzeug:134.199.200.131 - - [20/Jul/2025 08:20:46] "[35m[1mPOST /receive HTTP/1.1[0m" 500 -
+ERROR:__main__:Exception on /receive [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_1315/3840574578.py", line 5, in receive
+    new_data = your_meeting_assistant(data)  # Your AI Meeting Assistant Function Call
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: your_meeting_assistant() missing 1 required positional argument: 'scheduler_agent'
+INFO:werkzeug:134.199.200.131 - - [20/Jul/2025 08:20:56] "[35m[1mPOST /receive HTTP/1.1[0m" 500 -
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:__main__:Exception on /receive [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_1315/3840574578.py", line 5, in receive
+    new_data = your_meeting_assistant(data)  # Your AI Meeting Assistant Function Call
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: your_meeting_assistant() missing 1 required positional argument: 'scheduler_agent'
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 08:26:41] "[35m[1mPOST /receive HTTP/1.1[0m" 500 -
+ERROR:__main__:Exception on /receive [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_1315/3840574578.py", line 5, in receive
+    new_data = your_meeting_assistant(data)  # Your AI Meeting Assistant Function Call
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: your_meeting_assistant() missing 1 required positional argument: 'scheduler_agent'
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 08:27:18] "[35m[1mPOST /receive HTTP/1.1[0m" 500 -
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_1315/1394353273.py", line 273, in find_meeting_slots
+    free_slots = find_free_slots(
+                 ^^^^^^^^^^^^^^^^
+TypeError: find_free_slots() got an unexpected keyword argument 'eventid'
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://134.199.200.131:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:__main__:Exception on /receive [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_84/3840574578.py", line 5, in receive
+    new_data = your_meeting_assistant(data)  # Your AI Meeting Assistant Function Call
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: your_meeting_assistant() missing 1 required positional argument: 'scheduler_agent'
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 08:45:23] "[35m[1mPOST /receive HTTP/1.1[0m" 500 -
+ERROR:__main__:Exception on /receive [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_84/3840574578.py", line 5, in receive
+    new_data = your_meeting_assistant(data)  # Your AI Meeting Assistant Function Call
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: your_meeting_assistant() missing 1 required positional argument: 'scheduler_agent'
+INFO:werkzeug:134.199.200.131 - - [20/Jul/2025 08:50:54] "[35m[1mPOST /receive HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6039
+ * Running on http://134.199.200.131:6039
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:__main__:Exception on /receive [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_84/544316554.py", line 5, in receive
+    new_data = your_meeting_assistant(data)  # Your AI Meeting Assistant Function Call
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: your_meeting_assistant() missing 1 required positional argument: 'scheduler_agent'
+INFO:werkzeug:134.199.200.131 - - [20/Jul/2025 08:52:11] "[35m[1mPOST /receive HTTP/1.1[0m" 500 -
+ERROR:__main__:Exception on /receive [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_84/544316554.py", line 5, in receive
+    new_data = your_meeting_assistant(data)  # Your AI Meeting Assistant Function Call
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: your_meeting_assistant() missing 1 required positional argument: 'scheduler_agent'
+INFO:werkzeug:134.199.200.131 - - [20/Jul/2025 08:54:50] "[35m[1mPOST /receive HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://134.199.200.131:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:__main__:Exception on /receive [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_686/3840574578.py", line 5, in receive
+    new_data = your_meeting_assistant(data)  # Your AI Meeting Assistant Function Call
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: your_meeting_assistant() missing 1 required positional argument: 'scheduler_agent'
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 08:56:47] "[35m[1mPOST /receive HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://134.199.200.131:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:__main__:Exception on /receive [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_764/3840574578.py", line 7, in receive
+    print(f"\n\n\n Sending:\n {json.dumps(new_data, indent=2)}")
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type coroutine is not JSON serializable
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 08:58:48] "[35m[1mPOST /receive HTTP/1.1[0m" 500 -
+ERROR:__main__:Exception on /receive [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_764/3840574578.py", line 7, in receive
+    print(f"\n\n\n Sending:\n {json.dumps(new_data, indent=2)}")
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type coroutine is not JSON serializable
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 09:00:20] "[35m[1mPOST /receive HTTP/1.1[0m" 500 -
+ERROR:__main__:Exception on /receive [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_764/3840574578.py", line 7, in receive
+    print(f"\n\n\n Sending:\n {json.dumps(new_data, indent=2)}")
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type coroutine is not JSON serializable
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 09:02:18] "[35m[1mPOST /receive HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://134.199.200.131:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:__main__:Exception on /receive [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 976, in ensure_sync
+    return self.async_to_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 997, in async_to_sync
+    raise RuntimeError(
+RuntimeError: Install Flask with the 'async' extra in order to use async views.
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 09:03:45] "[35m[1mPOST /receive HTTP/1.1[0m" 500 -
+ERROR:__main__:Exception on /receive [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 976, in ensure_sync
+    return self.async_to_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 997, in async_to_sync
+    raise RuntimeError(
+RuntimeError: Install Flask with the 'async' extra in order to use async views.
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 09:04:22] "[35m[1mPOST /receive HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://134.199.200.131:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:__main__:Exception on /receive [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 976, in ensure_sync
+    return self.async_to_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 997, in async_to_sync
+    raise RuntimeError(
+RuntimeError: Install Flask with the 'async' extra in order to use async views.
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 09:05:02] "[35m[1mPOST /receive HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://134.199.200.131:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:__main__:Exception on /receive [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_988/3840574578.py", line 7, in receive
+    print(f"\n\n\n Sending:\n {json.dumps(new_data, indent=2)}")
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type coroutine is not JSON serializable
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 09:06:00] "[35m[1mPOST /receive HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://134.199.200.131:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:__main__:Exception on /receive [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_1042/3840574578.py", line 7, in receive
+    print(f"\n\n\n Sending:\n {json.dumps(new_data, indent=2)}")
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type coroutine is not JSON serializable
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 09:08:23] "[35m[1mPOST /receive HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://134.199.200.131:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 09:09:58] "POST /receive HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://134.199.200.131:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:__main__:Exception on /receive [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_1140/1985477315.py", line 8, in receive
+    print(f"\n\n\n Sending:\n {json.dumps(new_data, indent=2)}")
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type coroutine is not JSON serializable
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 09:10:55] "[35m[1mPOST /receive HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://134.199.200.131:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:__main__:Exception on /receive [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_1191/1782648835.py", line 8, in receive
+    print(f"\n\n\n Sending:\n {json.dumps(new_data, indent=2)}")
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type coroutine is not JSON serializable
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 09:11:49] "[35m[1mPOST /receive HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://134.199.200.131:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:__main__:Exception on /receive [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_1234/2742046932.py", line 11, in receive
+    print(f"\n\n\n Sending:\n {json.dumps(new_data, indent=2)}")
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type coroutine is not JSON serializable
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 09:12:39] "[35m[1mPOST /receive HTTP/1.1[0m" 500 -
+ERROR:__main__:Exception on /receive [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_1234/2742046932.py", line 11, in receive
+    print(f"\n\n\n Sending:\n {json.dumps(new_data, indent=2)}")
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type coroutine is not JSON serializable
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 09:16:30] "[35m[1mPOST /receive HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://134.199.200.131:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 09:18:50] "POST /receive HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://134.199.200.131:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 09:20:49] "POST /receive HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://134.199.200.131:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 09:22:16] "POST /receive HTTP/1.1" 200 -
+INFO:werkzeug:176.65.149.182 - - [20/Jul/2025 09:22:23] "[33mCONNECT ipv4-internet.yandex.net:443 HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://134.199.200.131:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 09:22:54] "POST /receive HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://134.199.200.131:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 09:23:18] "POST /receive HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://134.199.200.131:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:__main__:Exception on /receive [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 976, in ensure_sync
+    return self.async_to_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 997, in async_to_sync
+    raise RuntimeError(
+RuntimeError: Install Flask with the 'async' extra in order to use async views.
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 09:25:41] "[35m[1mPOST /receive HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://134.199.200.131:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 09:28:58] "POST /receive HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://134.199.200.131:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 09:31:28] "POST /receive HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://134.199.200.131:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 09:34:59] "POST /receive HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://134.199.200.131:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 09:35:55] "POST /receive HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://134.199.200.131:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 09:39:50] "POST /receive HTTP/1.1" 200 -
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 09:40:14] "POST /receive HTTP/1.1" 200 -
+INFO:werkzeug:14.139.128.62 - - [20/Jul/2025 09:40:18] "POST /receive HTTP/1.1" 200 -
