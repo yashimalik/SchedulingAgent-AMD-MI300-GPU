@@ -24,22 +24,19 @@ This project implements an AI-powered scheduling assistant that processes meetin
 
 Launch the vLLM server with DeepSeek-7B model:
 
-```bash
-HIP_VISIBLE_DEVICES=0 vllm serve /home/user/Models/deepseek-ai/deepseek-llm-7b-chat \
+HIP_VISIBLE_DEVICES=0 vllm serve /home/user/Models/meta-llama/Meta-Llama-3.1-8B-Instruct \
         --gpu-memory-utilization 0.9 \
         --swap-space 16 \
         --disable-log-requests \
         --dtype float16 \
-        --max-model-len 2048 \
+        --max-model-len 8192 \
         --tensor-parallel-size 1 \
         --host 0.0.0.0 \
-        --port 3000 \
+        --port 4000 \
         --num-scheduler-steps 10 \
         --max-num-seqs 128 \
-        --max-num-batched-tokens 2048 \
-        --max-model-len 2048 \
+        --max-num-batched-tokens 8192 \
         --distributed-executor-backend "mp"
-```
 
 ### 2. AI Agent Implementation
 
