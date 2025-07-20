@@ -1,297 +1,283 @@
-# 🤖 Agentic AI Scheduling Assistant - AMD MI300 GPU Hackathon
+# SchedulingAgent-AMD-MI300-GPU
 
-An intelligent meeting scheduling system powered by AMD MI300 GPU that uses AI agents to automate the complex process of coordinating meetings, extracting calendar events, and managing communications using the DeepSeek-7B LLM model.
+A meeting scheduling agent powered by AMD MI300 GPU using DeepSeek-7B LLM for intelligent calendar management and meeting coordination.
 
-## 🌟 Features
+## Overview
 
-- **🔄 Intelligent Meeting Scheduling**: AI-powered agent that processes natural language meeting requests
-- **📅 Calendar Integration**: Extracts and manages calendar events with conflict detection
-- **🧠 LLM-Powered Processing**: Uses DeepSeek-7B model running on AMD MI300 GPU via vLLM
-- **⚡ Real-time API**: Flask-based API endpoint for processing meeting requests
-- **🌍 Multi-Timezone Support**: Handles timezone conflicts and finds optimal meeting times
-- **📊 Smart Analytics**: Provides confidence scoring and meeting optimization
+This project implements an AI-powered scheduling assistant that processes meeting requests in JSON format and returns optimized calendar events. The system leverages vLLM running on AMD MI300 GPU hardware to provide fast, intelligent meeting scheduling capabilities.
 
-## 🏗️ Architecture
+## Repository Contents
 
-```
-┌─────────────
-```
+- `Scheduler_Agent.ipynb` - Main scheduling agent implementation
+- `Calendar_Event_Extraction.ipynb` - Calendar event processing logic
+- `Sample_AI_Agent.ipynb` - Basic AI agent example and setup
+- `Input_Output_Formats.ipynb` - Input/output format specifications
+- `findFreeSlot.ipynb` - Free time slot detection algorithm
+- `Cred_to_Token.ipynb` - Authentication token management
+- `GoogleAuth.md` - Google Calendar authentication guide
+- `AI_Scheduling_Assistant - ppt.pptx` - Project presentation
+- `errors.log` - System error logs
 
-## 🚀 Quick Start
+## Setup Instructions
 
-### Prerequisites
+### 1. vLLM Server Configuration
 
-- Python 3.9+
-- OpenAI API key
-- Optional: Google Calendar API credentials, Email credentials
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd amd_hackathon
-   ```
-
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Set up environment variables**
-   ```bash
-   cp hackathon/.env.example .env
-   # Edit .env with your API keys and configuration
-   ```
-
-4. **Run the demo**
-   ```bash
-   python -m hackathon.main demo
-   ```
-
-### Environment Configuration
-
-Create a `.env` file with the following variables:
+Launch the vLLM server with DeepSeek-7B model:
 
 ```bash
-# Required
-OPENAI_API_KEY=your_openai_api_key_here
-OPENAI_MODEL=gpt-4
-
-# Optional - Calendar Integration
-GOOGLE_CLIENT_ID=your_google_client_id
-GOOGLE_CLIENT_SECRET=your_google_client_secret
-
-# Optional - Email Notifications
-EMAIL_ADDRESS=your_email@gmail.com
-EMAIL_PASSWORD=your_app_password
-SMTP_SERVER=smtp.gmail.com
-SMTP_PORT=587
-
-# Application Settings
-DEBUG=True
-LOG_LEVEL=INFO
-DEFAULT_TIMEZONE=UTC
+HIP_VISIBLE_DEVICES=0 vllm serve /home/user/Models/deepseek-ai/deepseek-llm-7b-chat \
+        --gpu-memory-utilization 0.9 \
+        --swap-space 16 \
+        --disable-log-requests \
+        --dtype float16 \
+        --max-model-len 2048 \
+        --tensor-parallel-size 1 \
+        --host 0.0.0.0 \
+        --port 3000 \
+        --num-scheduler-steps 10 \
+        --max-num-seqs 128 \
+        --max-num-batched-tokens 2048 \
+        --max-model-len 2048 \
+        --distributed-executor-backend "mp"
 ```
 
-## 💻 Usage Examples
+### 2. AI Agent Implementation
 
-### 1. Demo Mode (Recommended for first run)
-```bash
-python -m hackathon.main demo
-```
-Runs a complete demonstration of the scheduling workflow with sample data.
-
-### 2. Interactive Mode
-```bash
-python -m hackathon.main interactive
-```
-Interactive mode where you can input meeting details and participants.
-
-### 3. Custom Meeting Scheduling
-```bash
-python -m hackathon.main custom
-```
-Schedules a predefined custom meeting (can be modified in the code).
-
-### 4. Programmatic Usage
+The core AI agent processes email content to extract meeting information:
 
 ```python
-import asyncio
-from hackathon.workflow import SchedulingWorkflow
-from hackathon.models.meeting import MeetingRequest, Participant, Priority
-from datetime import datetime
+class AI_AGENT:
+    def __init__(self, client, MODEL_PATH):
+        self.base_url = BASE_URL
+        self.model_path = MODEL_PATH
 
-async def schedule_meeting():
-    # Create participants
-    participants = [
-        Participant(
-            email="alice@company.com",
-            name="Alice Johnson",
-            timezone="US/Eastern",
-            is_organizer=True
-        ),
-        Participant(
-            email="bob@company.com", 
-            name="Bob Smith",
-            timezone="US/Pacific"
+    def parse_email(self, email_text):
+        response = client.chat.completions.create(
+            model=self.model_path,
+            temperature=0.0,
+            messages=[{
+                "role": "user",
+                "content": f"""
+                You are an Agent that helps in scheduling meetings.
+                Your job is to extract Email ID's and Meeting Duration.
+                You should return:
+                1. List of email id's of participants (comma-separated).
+                2. Meeting duration in minutes.
+                3. Time constraints (e.g., 'next week').
+                If the List of email id's of participants are just names, then append @amd.com at the end and return. 
+                Return as json with 'participants', 'time_constraints' & 'meeting_duration'.
+                Strictly follow the instructions. Strictly return dict with participants email id's, time constraints & meeting duration in minutes only. 
+                Do not add any other instructions or information. 
+                
+                Email: {email_text}
+                """
+            }]
         )
-    ]
-    
-    # Create meeting request
-    meeting_request = MeetingRequest(
-        title="Project Kickoff",
-        description="Initial project planning meeting",
-        participants=participants,
-        duration_minutes=90,
-        preferred_time_slots=[],
-        priority=Priority.HIGH,
-        created_at=datetime.now(),
-        organizer_email="alice@company.com"
-    )
-    
-    # Create scheduling context
-    from hackathon.models.meeting import SchedulingContext
-    context = SchedulingContext(
-        user_preferences={},
-        timezone_preferences={p.email: p.timezone for p in participants},
-        working_hours={},
-        calendar_permissions={p.email: True for p in participants},
-        communication_preferences={p.email: "email" for p in participants}
-    )
-    
-    # Schedule the meeting
-    workflow = SchedulingWorkflow()
-    result = await workflow.schedule_meeting(meeting_request, context)
-    
-    if result.success:
-        print(f"Meeting scheduled: {result.meeting.scheduled_time.start_time}")
-    else:
-        print(f"Scheduling failed: {result.error_message}")
-
-# Run the scheduling
-asyncio.run(schedule_meeting())
+        return json.loads(response.choices[0].message.content)
 ```
 
-## 🔧 Core Components
+## Input Format
 
-### Scheduler Agent (`hackathon/agents/scheduler_agent.py`)
-- **Purpose**: Main orchestrator that coordinates the entire scheduling process
-- **Technology**: LangGraph state machine with conditional edges
-- **Capabilities**:
-  - Analyzes meeting requests using AI
-  - Orchestrates workflow between agents
-  - Handles conflict resolution
-  - Makes final scheduling decisions
+The system accepts meeting requests in the following JSON structure:
 
-### Calendar Agent (`hackathon/agents/calendar_agent.py`)
-- **Purpose**: Manages calendar integrations and availability scanning
-- **Capabilities**:
-  - Scans participant calendars (Google Calendar, Outlook)
-  - Calculates availability windows
-  - Finds common free time slots
-  - Creates and cancels calendar events
-  - Handles timezone conversions
-
-### Communicator Agent (`hackathon/agents/communicator_agent.py`)
-- **Purpose**: Handles all communications and notifications
-- **Capabilities**:
-  - Sends meeting invitations
-  - Provides meeting confirmations
-  - Handles reschedule requests
-  - Sends conflict notifications
-  - Manages meeting reminders
-  - Supports multiple communication channels (email, future: SMS, push)
-
-### Data Models (`hackathon/models/meeting.py`)
-- `MeetingRequest`: Incoming meeting scheduling request
-- `Meeting`: Complete meeting information with status
-- `Participant`: Meeting participant details
-- `TimeSlot`: Time slot with timezone and availability
-- `SchedulingContext`: User preferences and configuration
-
-## 🎯 Key Features Deep Dive
-
-### 1. Multi-Timezone Intelligence
-- Automatically detects and handles timezone conflicts
-- Finds optimal meeting times across multiple timezones
-- Provides timezone-aware scheduling suggestions
-- Displays times in each participant's local timezone
-
-### 2. AI-Powered Conflict Resolution
-- Uses GPT-4 to analyze scheduling conflicts
-- Generates intelligent alternatives
-- Negotiates between participant preferences
-- Provides contextual explanations for scheduling decisions
-
-### 3. Extensible Calendar Integration
-- Plugin architecture for different calendar providers
-- Currently supports simulation mode with Google Calendar hooks
-- Easy to extend for Outlook, Office 365, and other providers
-
-### 4. Smart Communication
-- Context-aware message generation
-- Professional email templates
-- Handles various notification types (invitations, confirmations, reschedules)
-- Customizable communication preferences per participant
-
-### 5. Workflow Orchestration
-- Built on LangGraph for robust state management
-- Handles errors and retries gracefully
-- Supports complex workflow branching
-- Provides detailed execution results
-
-## 🛠️ Development
-
-### Project Structure
-```
-hackathon/
-├── agents/                 # AI agents
-│   ├── scheduler_agent.py  # Main orchestrator
-│   ├── calendar_agent.py   # Calendar operations
-│   └── communicator_agent.py # Communications
-├── models/                 # Data models
-│   └── meeting.py          # Meeting-related data structures
-├── utils/                  # Utilities
-│   └── timezone_utils.py   # Timezone handling
-├── config.py              # Configuration management
-├── workflow.py            # Main workflow orchestration
-└── main.py               # Entry point and examples
+```json
+{
+    "Request_id": "6118b54f-907b-4451-8d48-dd13d76033a5",
+    "Datetime": "19-07-2025T12:34:55",
+    "Location": "IISc Bangalore",
+    "From": "userone.amd@gmail.com",
+    "Attendees": [
+        {
+            "email": "usertwo.amd@gmail.com"
+        },
+        {
+            "email": "userthree.amd@gmail.com"
+        }
+    ],
+    "Subject": "Agentic AI Project Status Update",
+    "EmailContent": "Hi team, let's meet on Thursday for 30 minutes to discuss the status of Agentic AI Project."
+}
 ```
 
-### Adding New Features
+## Output Format
 
-1. **New Agent**: Create a new agent class in `agents/`
-2. **New Model**: Add data structures to `models/`
-3. **New Integration**: Extend agents with new service integrations
-4. **New Workflow**: Modify `workflow.py` to add new orchestration paths
+The system returns scheduled events in this JSON structure:
 
-### Testing
-
-Run the demo mode to test all components:
-```bash
-python -m hackathon.main demo
+```json
+{
+    "Request_id": "6118b54f-907b-4451-8d48-dd13d76033a5",
+    "Datetime": "19-07-2025T12:34:55",
+    "Location": "IISc Bangalore",
+    "From": "userone.amd@gmail.com",
+    "Attendees": [
+        {
+            "email": "userone.amd@gmail.com",
+            "events": [
+                {
+                    "StartTime": "2025-07-24T10:30:00+05:30",
+                    "EndTime": "2025-07-24T11:00:00+05:30",
+                    "NumAttendees": 3,
+                    "Attendees": [
+                        "userone.amd@gmail.com",
+                        "usertwo.amd@gmail.com",
+                        "userthree.amd@gmail.com"
+                    ],
+                    "Summary": "Agentic AI Project Status Update"
+                }
+            ]
+        },
+        {
+            "email": "usertwo.amd@gmail.com",
+            "events": [
+                {
+                    "StartTime": "2025-07-24T10:00:00+05:30",
+                    "EndTime": "2025-07-24T10:30:00+05:30",
+                    "NumAttendees": 3,
+                    "Attendees": [
+                        "userone.amd@gmail.com",
+                        "usertwo.amd@gmail.com",
+                        "userthree.amd@gmail.com"
+                    ],
+                    "Summary": "Team Meet"
+                },
+                {
+                    "StartTime": "2025-07-24T10:30:00+05:30",
+                    "EndTime": "2025-07-24T11:00:00+05:30",
+                    "NumAttendees": 3,
+                    "Attendees": [
+                        "userone.amd@gmail.com",
+                        "usertwo.amd@gmail.com",
+                        "userthree.amd@gmail.com"
+                    ],
+                    "Summary": "Agentic AI Project Status Update"
+                }
+            ]
+        },
+        {
+            "email": "userthree.amd@gmail.com",
+            "events": [
+                {
+                    "StartTime": "2025-07-24T10:00:00+05:30",
+                    "EndTime": "2025-07-24T10:30:00+05:30",
+                    "NumAttendees": 3,
+                    "Attendees": [
+                        "userone.amd@gmail.com",
+                        "usertwo.amd@gmail.com",
+                        "userthree.amd@gmail.com"
+                    ],
+                    "Summary": "Team Meet"
+                },
+                {
+                    "StartTime": "2025-07-24T13:00:00+05:30",
+                    "EndTime": "2025-07-24T14:00:00+05:30",
+                    "NumAttendees": 1,
+                    "Attendees": [
+                        "SELF"
+                    ],
+                    "Summary": "Lunch with Customers"
+                },
+                {
+                    "StartTime": "2025-07-24T10:30:00+05:30",
+                    "EndTime": "2025-07-24T11:00:00+05:30",
+                    "NumAttendees": 3,
+                    "Attendees": [
+                        "userone.amd@gmail.com",
+                        "usertwo.amd@gmail.com",
+                        "userthree.amd@gmail.com"
+                    ],
+                    "Summary": "Agentic AI Project Status Update"
+                }
+            ]
+        }
+    ],
+    "Subject": "Agentic AI Project Status Update",
+    "EmailContent": "Hi team, let's meet on Thursday for 30 minutes to discuss the status of Agentic AI Project.",
+    "EventStart": "2025-07-24T10:30:00+05:30",
+    "EventEnd": "2025-07-24T11:00:00+05:30",
+    "Duration_mins": "30",
+    "MetaData": {}
+}
 ```
 
-Check logs for detailed execution information.
+## API Implementation
 
-## 🔮 Future Enhancements
+The main function `your_meeting_assistant()` processes meeting requests:
 
-- **🔗 Additional Calendar Integrations**: Office 365, CalDAV, iCal
-- **📱 Mobile Notifications**: SMS, push notifications
-- **🧠 Advanced AI Features**: 
-  - Meeting preference learning
-  - Predictive scheduling
-  - Natural language processing for meeting requests
-- **🔄 Recurring Meetings**: Support for recurring meeting patterns
-- **📊 Analytics Dashboard**: Meeting scheduling analytics and insights
-- **🌐 Web Interface**: Browser-based scheduling interface
-- **🤝 Meeting Room Integration**: Physical meeting room booking
-- **👥 Team Optimization**: AI-powered team meeting optimization
+```python
+def your_meeting_assistant(data):
+    # Takes Meeting request JSON as Input
+    # Returns processed JSON with scheduled events
+    # Implementation details in Scheduler_Agent.ipynb
+    pass
+```
 
-## 🤝 Contributing
+## API Server
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
+The system runs a Flask server on port 5000:
 
-## 📄 License
+```python
+@app.route('/receive', methods=['POST'])
+def receive():
+    data = request.get_json()
+    new_data = your_meeting_assistant(data)
+    return jsonify(new_data)
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+app.run(host='0.0.0.0', port=5000)
+```
 
-## 🆘 Support
+## Testing
 
-For questions, issues, or contributions:
-- Create an issue in the repository
-- Check the logs when running in debug mode
-- Review the architecture documentation
+Test the API by sending JSON requests:
 
-## 🎉 Acknowledgments
+```python
+import requests
+import json
 
-- Built with [LangGraph](https://github.com/langchain-ai/langgraph) for workflow orchestration
-- Powered by [OpenAI GPT-4](https://openai.com/) for intelligent decision making
-- Uses [LangChain](https://github.com/langchain-ai/langchain) for AI integration
+SERVER_URL = "<YOUR IP ADDRESS>"
+INPUT_JSON_FILE = "JSON_Samples/Input_Request.json"
 
----
+with open(INPUT_JSON_FILE) as f:
+    input_json = json.load(f)
+
+response = requests.post(SERVER_URL+":5000/receive", json=input_json, timeout=10)
+print(response.json())
+```
+
+## Notebooks
+
+- **Sample_AI_Agent.ipynb**: Demonstrates basic AI agent setup with vLLM and OpenAI API communication
+- **Scheduler_Agent.ipynb**: Complete scheduling agent implementation
+- **Calendar_Event_Extraction.ipynb**: Calendar integration and event processing
+- **findFreeSlot.ipynb**: Algorithm for finding available meeting slots
+- **Input_Output_Formats.ipynb**: Detailed format specifications and examples
+
+## Authentication
+
+Google Calendar integration requires proper authentication setup. See `GoogleAuth.md` for detailed instructions and use the credential notebooks for token management.
+
+## Evaluation Criteria
+
+The system is evaluated on:
+- **Correctness of Output**: Accuracy and precision of results
+- **Roundtrip Latency**: Speed and efficiency of processing and response
+- **GitHub Repository Maintenance**: Code organization, documentation, and commit hygiene
+- **Creativeness in Approach**: Innovation, originality, and problem-solving uniqueness
+- **Performance-Based Scoring**: Combined assessment of correctness, latency, repository quality, and creativity
+
+## Requirements
+
+- AMD MI300 GPU
+- vLLM server
+- DeepSeek-7B chat model
+- Python with required dependencies
+- Flask for API server
+- Google Calendar API (optional)
+
+## Usage
+
+1. Start the vLLM server with the provided configuration
+2. Run the Flask API server
+3. Send meeting request JSON to the `/receive` endpoint
+4. Receive processed scheduling results in the specified output format
+
+The system processes natural language meeting requests and returns optimized calendar events with conflict resolution and intelligent time slot allocation.
