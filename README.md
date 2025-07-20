@@ -22,7 +22,7 @@ This project implements an AI-powered scheduling assistant that processes meetin
 
 ### 1. vLLM Server Configuration
 
-Launch the vLLM server with DeepSeek-7B model:
+Launch the vLLM server with Meta-Llama-3.1-8B-Instruct model:
 
 HIP_VISIBLE_DEVICES=0 vllm serve /home/user/Models/meta-llama/Meta-Llama-3.1-8B-Instruct \
         --gpu-memory-utilization 0.9 \
